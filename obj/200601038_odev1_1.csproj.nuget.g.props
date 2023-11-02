@@ -1,0 +1,2098 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Onur\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.7.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Onur\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.core\0.18.1\contentFiles\any\any\Resources\Syllable\accepted-syllable-prefixes" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.core\0.18.1\contentFiles\any\any\Resources\Syllable\accepted-syllable-prefixes')">
+      <NuGetPackageId>ZemberekDotNet.Core</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Syllable\accepted-syllable-prefixes</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.core\0.18.1\contentFiles\any\any\Resources\Text\html-char-map-common.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.core\0.18.1\contentFiles\any\any\Resources\Text\html-char-map-common.txt')">
+      <NuGetPackageId>ZemberekDotNet.Core</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Text\html-char-map-common.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.core\0.18.1\contentFiles\any\any\Resources\Text\html-char-map-full.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.core\0.18.1\contentFiles\any\any\Resources\Text\html-char-map-full.txt')">
+      <NuGetPackageId>ZemberekDotNet.Core</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Text\html-char-map-full.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.core\0.18.1\contentFiles\any\any\Resources\Text\special-char-to-simple-char.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.core\0.18.1\contentFiles\any\any\Resources\Text\special-char-to-simple-char.txt')">
+      <NuGetPackageId>ZemberekDotNet.Core</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Text\special-char-to-simple-char.txt</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.tokenization\0.18.1\contentFiles\any\any\Resources\antlr-runtime-4.9.3.jar" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.tokenization\0.18.1\contentFiles\any\any\Resources\antlr-runtime-4.9.3.jar')">
+      <NuGetPackageId>ZemberekDotNet.Tokenization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\antlr-runtime-4.9.3.jar</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.tokenization\0.18.1\contentFiles\any\any\Resources\tokenization\TurkishLexer.tokens" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.tokenization\0.18.1\contentFiles\any\any\Resources\tokenization\TurkishLexer.tokens')">
+      <NuGetPackageId>ZemberekDotNet.Tokenization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tokenization\TurkishLexer.tokens</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.tokenization\0.18.1\contentFiles\any\any\Resources\tokenization\abbreviations-long.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.tokenization\0.18.1\contentFiles\any\any\Resources\tokenization\abbreviations-long.txt')">
+      <NuGetPackageId>ZemberekDotNet.Tokenization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tokenization\abbreviations-long.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.tokenization\0.18.1\contentFiles\any\any\Resources\tokenization\abbreviations.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.tokenization\0.18.1\contentFiles\any\any\Resources\tokenization\abbreviations.txt')">
+      <NuGetPackageId>ZemberekDotNet.Tokenization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tokenization\abbreviations.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.tokenization\0.18.1\contentFiles\any\any\Resources\tokenization\sentence-boundary-model.bin" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.tokenization\0.18.1\contentFiles\any\any\Resources\tokenization\sentence-boundary-model.bin')">
+      <NuGetPackageId>ZemberekDotNet.Tokenization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tokenization\sentence-boundary-model.bin</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\abbreviations.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\abbreviations.dict')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\abbreviations.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\ambiguity\model-compressed" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\ambiguity\model-compressed')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\ambiguity\model-compressed</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\first-10K" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\first-10K')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\first-10K</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\informal.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\informal.dict')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\informal.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\item-groups.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\item-groups.txt')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\item-groups.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\lexicon.bin" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\lexicon.bin')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\lexicon.bin</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\locations-tr.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\locations-tr.dict')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\locations-tr.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\master-dictionary.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\master-dictionary.dict')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\master-dictionary.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\non-tdk.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\non-tdk.dict')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\non-tdk.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\person-names.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\person-names.dict')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\person-names.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\phonetics\english-letter-names.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\phonetics\english-letter-names.txt')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\phonetics\english-letter-names.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\phonetics\english-phones-to-turkish.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\phonetics\english-phones-to-turkish.txt')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\phonetics\english-phones-to-turkish.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\phonetics\turkish-letter-names.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\phonetics\turkish-letter-names.txt')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\phonetics\turkish-letter-names.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\phonetics\turkish-letter-pronunciation.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\phonetics\turkish-letter-pronunciation.txt')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\phonetics\turkish-letter-pronunciation.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\proper-from-corpus.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\proper-from-corpus.dict')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\proper-from-corpus.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\proper-ignore" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\proper-ignore')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\proper-ignore</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\proper.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\proper.dict')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\proper.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\special-dictionary-item-root-suffix-data" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\special-dictionary-item-root-suffix-data')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\special-dictionary-item-root-suffix-data</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\tdk-obsolete.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\tdk-obsolete.dict')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\tdk-obsolete.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\turkish-ordinal-numbers.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.morphology\0.18.2\contentFiles\any\any\Resources\tr\turkish-ordinal-numbers.txt')">
+      <NuGetPackageId>ZemberekDotNet.Morphology</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\tr\turkish-ordinal-numbers.txt</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\endings" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\endings')">
+      <NuGetPackageId>ZemberekDotNet.Normalization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\endings</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\lm-unigram.slm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\lm-unigram.slm')">
+      <NuGetPackageId>ZemberekDotNet.Normalization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\lm-unigram.slm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\candidates-manual" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\candidates-manual')">
+      <NuGetPackageId>ZemberekDotNet.Normalization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\normalization\candidates-manual</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\multi-word-replacements" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\multi-word-replacements')">
+      <NuGetPackageId>ZemberekDotNet.Normalization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\normalization\multi-word-replacements</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\no-split" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\no-split')">
+      <NuGetPackageId>ZemberekDotNet.Normalization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\normalization\no-split</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\no-split-tails" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\no-split-tails')">
+      <NuGetPackageId>ZemberekDotNet.Normalization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\normalization\no-split-tails</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\possible-noisy" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\possible-noisy')">
+      <NuGetPackageId>ZemberekDotNet.Normalization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\normalization\possible-noisy</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\possible-noisy-roots" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\possible-noisy-roots')">
+      <NuGetPackageId>ZemberekDotNet.Normalization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\normalization\possible-noisy-roots</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\question-suffixes" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\normalization\question-suffixes')">
+      <NuGetPackageId>ZemberekDotNet.Normalization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\normalization\question-suffixes</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\patterns\turkishPatternTable" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.normalization\0.18.1\contentFiles\any\any\Resources\patterns\turkishPatternTable')">
+      <NuGetPackageId>ZemberekDotNet.Normalization</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\patterns\turkishPatternTable</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ar.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ar.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ar.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\az.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\az.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\az.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ba.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ba.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ba.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\be.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\be.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\be.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\bg.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\bg.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\bg.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\bs.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\bs.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\bs.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ca.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ca.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ca.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ce.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ce.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ce.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ck.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ck.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ck.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\cs.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\cs.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\cs.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\cv.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\cv.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\cv.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\da.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\da.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\da.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\de.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\de.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\de.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\el.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\el.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\el.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\en.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\en.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\en.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\eo.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\eo.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\eo.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\es.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\es.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\es.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\et.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\et.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\et.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\eu.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\eu.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\eu.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\fa.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\fa.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\fa.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\fi.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\fi.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\fi.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\fr.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\fr.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\fr.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\he.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\he.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\he.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\hi.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\hi.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\hi.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\hr.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\hr.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\hr.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\hu.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\hu.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\hu.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\hy.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\hy.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\hy.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\id.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\id.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\id.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\is.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\is.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\is.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\it.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\it.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\it.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ja.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ja.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ja.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\jv.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\jv.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\jv.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ka.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ka.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ka.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\kk.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\kk.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\kk.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\km.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\km.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\km.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ko.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ko.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ko.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ku.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ku.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ku.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ky.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ky.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ky.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\la.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\la.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\la.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\lt.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\lt.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\lt.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\lv.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\lv.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\lv.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ml.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ml.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ml.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\mn.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\mn.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\mn.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ms.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ms.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ms.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\my.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\my.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\my.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\nl.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\nl.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\nl.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\no.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\no.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\no.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\pl.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\pl.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\pl.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\pt.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\pt.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\pt.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ro.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ro.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ro.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ru.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\ru.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\ru.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\sk.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\sk.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\sk.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\sl.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\sl.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\sl.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\sr.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\sr.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\sr.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\sv.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\sv.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\sv.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\tr.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\tr.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\tr.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\uk.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\uk.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\uk.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\uz.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\uz.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\uz.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\vi.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\vi.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\vi.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\war.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\war.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\war.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\zh.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\compressed\zh.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\compressed\zh.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\az.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\az.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\tr_group\az.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\de.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\de.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\tr_group\de.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\en.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\en.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\tr_group\en.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\ku.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\ku.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\tr_group\ku.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\ky.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\ky.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\tr_group\ky.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\langs.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\langs.txt')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\tr_group\langs.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\tr.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\tr.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\tr_group\tr.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\unk.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\unk.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\tr_group\unk.clm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\uz.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.langid\0.18.1\contentFiles\any\any\Resources\Models\tr_group\uz.clm')">
+      <NuGetPackageId>ZemberekDotNet.LangID</NuGetPackageId>
+      <NuGetPackageVersion>0.18.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Resources\Models\tr_group\uz.clm</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ar.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ar.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ar.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ar.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\az.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\az.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\az.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\az.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ba.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ba.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ba.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ba.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\be.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\be.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\be.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\be.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\bg.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\bg.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\bg.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\bg.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\bs.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\bs.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\bs.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\bs.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ca.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ca.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ca.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ca.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ce.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ce.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ce.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ce.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ck.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ck.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ck.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ck.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\cs.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\cs.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\cs.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\cs.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\cv.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\cv.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\cv.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\cv.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\da.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\da.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\da.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\da.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\de.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\de.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\de.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\de.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\el.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\el.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\el.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\el.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\en.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\en.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\en.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\en.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\eo.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\eo.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\eo.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\eo.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\es.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\es.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\es.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\es.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\et.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\et.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\et.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\et.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\eu.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\eu.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\eu.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\eu.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\fa.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\fa.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\fa.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\fa.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\fi.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\fi.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\fi.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\fi.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\fr.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\fr.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\fr.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\fr.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\he.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\he.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\he.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\he.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\hi.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\hi.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\hi.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\hi.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\hr.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\hr.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\hr.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\hr.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\hu.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\hu.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\hu.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\hu.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\hy.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\hy.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\hy.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\hy.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\id.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\id.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\id.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\id.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\is.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\is.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\is.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\is.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\it.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\it.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\it.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\it.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ja.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ja.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ja.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ja.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\jv.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\jv.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\jv.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\jv.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ka.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ka.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ka.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ka.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\kk.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\kk.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\kk.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\kk.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\km.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\km.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\km.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\km.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ko.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ko.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ko.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ko.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ku.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ku.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ku.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ku.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ky.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ky.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ky.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ky.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\la.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\la.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\la.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\la.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\lt.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\lt.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\lt.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\lt.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\lv.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\lv.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\lv.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\lv.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ml.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ml.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ml.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ml.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\mn.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\mn.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\mn.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\mn.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ms.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ms.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ms.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ms.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\my.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\my.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\my.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\my.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\nl.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\nl.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\nl.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\nl.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\no.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\no.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\no.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\no.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\pl.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\pl.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\pl.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\pl.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\pt.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\pt.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\pt.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\pt.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ro.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ro.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ro.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ro.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ru.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\ru.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\ru.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\ru.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\sk.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\sk.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\sk.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\sk.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\sl.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\sl.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\sl.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\sl.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\sr.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\sr.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\sr.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\sr.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\sv.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\sv.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\sv.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\sv.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\tr.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\tr.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\tr.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\tr.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\uk.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\uk.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\uk.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\uk.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\uz.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\uz.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\uz.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\uz.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\vi.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\vi.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\vi.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\vi.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\war.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\war.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\war.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\war.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\zh.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\compressed\zh.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\compressed\zh.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\compressed\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\compressed\zh.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\az.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\az.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\tr_group\az.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\tr_group\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\tr_group\az.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\de.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\de.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\tr_group\de.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\tr_group\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\tr_group\de.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\en.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\en.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\tr_group\en.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\tr_group\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\tr_group\en.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\ku.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\ku.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\tr_group\ku.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\tr_group\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\tr_group\ku.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\ky.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\ky.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\tr_group\ky.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\tr_group\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\tr_group\ky.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\langs.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\langs.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\tr_group\langs.txt</TargetPath>
+      <DestinationSubDirectory>Resources\Models\tr_group\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\tr_group\langs.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\tr.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\tr.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\tr_group\tr.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\tr_group\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\tr_group\tr.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\unk.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\unk.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\tr_group\unk.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\tr_group\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\tr_group\unk.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\uz.clm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Models\tr_group\uz.clm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Models\tr_group\uz.clm</TargetPath>
+      <DestinationSubDirectory>Resources\Models\tr_group\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Models\tr_group\uz.clm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Syllable\accepted-syllable-prefixes" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Syllable\accepted-syllable-prefixes')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Syllable\accepted-syllable-prefixes</TargetPath>
+      <DestinationSubDirectory>Resources\Syllable\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Syllable\accepted-syllable-prefixes</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Text\html-char-map-common.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Text\html-char-map-common.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Text\html-char-map-common.txt</TargetPath>
+      <DestinationSubDirectory>Resources\Text\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Text\html-char-map-common.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Text\html-char-map-full.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Text\html-char-map-full.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Text\html-char-map-full.txt</TargetPath>
+      <DestinationSubDirectory>Resources\Text\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Text\html-char-map-full.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Text\special-char-to-simple-char.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\Text\special-char-to-simple-char.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Text\special-char-to-simple-char.txt</TargetPath>
+      <DestinationSubDirectory>Resources\Text\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Text\special-char-to-simple-char.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\antlr-runtime-4.9.3.jar" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\antlr-runtime-4.9.3.jar')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\antlr-runtime-4.9.3.jar</TargetPath>
+      <DestinationSubDirectory>Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\antlr-runtime-4.9.3.jar</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\endings" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\endings')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\endings</TargetPath>
+      <DestinationSubDirectory>Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\endings</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\lm-unigram.slm" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\lm-unigram.slm')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\lm-unigram.slm</TargetPath>
+      <DestinationSubDirectory>Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\lm-unigram.slm</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\candidates-manual" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\candidates-manual')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\normalization\candidates-manual</TargetPath>
+      <DestinationSubDirectory>Resources\normalization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\normalization\candidates-manual</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\multi-word-replacements" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\multi-word-replacements')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\normalization\multi-word-replacements</TargetPath>
+      <DestinationSubDirectory>Resources\normalization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\normalization\multi-word-replacements</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\no-split" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\no-split')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\normalization\no-split</TargetPath>
+      <DestinationSubDirectory>Resources\normalization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\normalization\no-split</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\no-split-tails" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\no-split-tails')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\normalization\no-split-tails</TargetPath>
+      <DestinationSubDirectory>Resources\normalization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\normalization\no-split-tails</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\possible-noisy" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\possible-noisy')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\normalization\possible-noisy</TargetPath>
+      <DestinationSubDirectory>Resources\normalization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\normalization\possible-noisy</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\possible-noisy-roots" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\possible-noisy-roots')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\normalization\possible-noisy-roots</TargetPath>
+      <DestinationSubDirectory>Resources\normalization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\normalization\possible-noisy-roots</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\question-suffixes" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\normalization\question-suffixes')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\normalization\question-suffixes</TargetPath>
+      <DestinationSubDirectory>Resources\normalization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\normalization\question-suffixes</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\patterns\turkishPatternTable" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\patterns\turkishPatternTable')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\patterns\turkishPatternTable</TargetPath>
+      <DestinationSubDirectory>Resources\patterns\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\patterns\turkishPatternTable</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tokenization\TurkishLexer.tokens" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tokenization\TurkishLexer.tokens')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tokenization\TurkishLexer.tokens</TargetPath>
+      <DestinationSubDirectory>Resources\tokenization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tokenization\TurkishLexer.tokens</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tokenization\abbreviations-long.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tokenization\abbreviations-long.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tokenization\abbreviations-long.txt</TargetPath>
+      <DestinationSubDirectory>Resources\tokenization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tokenization\abbreviations-long.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tokenization\abbreviations.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tokenization\abbreviations.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tokenization\abbreviations.txt</TargetPath>
+      <DestinationSubDirectory>Resources\tokenization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tokenization\abbreviations.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tokenization\sentence-boundary-model.bin" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tokenization\sentence-boundary-model.bin')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tokenization\sentence-boundary-model.bin</TargetPath>
+      <DestinationSubDirectory>Resources\tokenization\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tokenization\sentence-boundary-model.bin</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\abbreviations.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\abbreviations.dict')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\abbreviations.dict</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\abbreviations.dict</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\ambiguity\model-compressed" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\ambiguity\model-compressed')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\ambiguity\model-compressed</TargetPath>
+      <DestinationSubDirectory>Resources\tr\ambiguity\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\ambiguity\model-compressed</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\first-10K" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\first-10K')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\first-10K</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\first-10K</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\informal.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\informal.dict')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\informal.dict</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\informal.dict</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\item-groups.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\item-groups.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\item-groups.txt</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\item-groups.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\lexicon.bin" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\lexicon.bin')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\lexicon.bin</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\lexicon.bin</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\locations-tr.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\locations-tr.dict')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\locations-tr.dict</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\locations-tr.dict</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\master-dictionary.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\master-dictionary.dict')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\master-dictionary.dict</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\master-dictionary.dict</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\non-tdk.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\non-tdk.dict')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\non-tdk.dict</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\non-tdk.dict</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\person-names.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\person-names.dict')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\person-names.dict</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\person-names.dict</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\phonetics\english-letter-names.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\phonetics\english-letter-names.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\phonetics\english-letter-names.txt</TargetPath>
+      <DestinationSubDirectory>Resources\tr\phonetics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\phonetics\english-letter-names.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\phonetics\english-phones-to-turkish.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\phonetics\english-phones-to-turkish.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\phonetics\english-phones-to-turkish.txt</TargetPath>
+      <DestinationSubDirectory>Resources\tr\phonetics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\phonetics\english-phones-to-turkish.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\phonetics\turkish-letter-names.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\phonetics\turkish-letter-names.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\phonetics\turkish-letter-names.txt</TargetPath>
+      <DestinationSubDirectory>Resources\tr\phonetics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\phonetics\turkish-letter-names.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\phonetics\turkish-letter-pronunciation.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\phonetics\turkish-letter-pronunciation.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\phonetics\turkish-letter-pronunciation.txt</TargetPath>
+      <DestinationSubDirectory>Resources\tr\phonetics\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\phonetics\turkish-letter-pronunciation.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\proper-from-corpus.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\proper-from-corpus.dict')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\proper-from-corpus.dict</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\proper-from-corpus.dict</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\proper-ignore" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\proper-ignore')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\proper-ignore</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\proper-ignore</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\proper.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\proper.dict')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\proper.dict</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\proper.dict</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\special-dictionary-item-root-suffix-data" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\special-dictionary-item-root-suffix-data')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\special-dictionary-item-root-suffix-data</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\special-dictionary-item-root-suffix-data</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\tdk-obsolete.dict" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\tdk-obsolete.dict')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\tdk-obsolete.dict</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\tdk-obsolete.dict</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\turkish-ordinal-numbers.txt" Condition="Exists('$(NuGetPackageRoot)zemberekdotnet.all\0.18.2\contentFiles\any\any\Resources\tr\turkish-ordinal-numbers.txt')">
+      <NuGetPackageId>ZemberekDotNet.All</NuGetPackageId>
+      <NuGetPackageVersion>0.18.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\tr\turkish-ordinal-numbers.txt</TargetPath>
+      <DestinationSubDirectory>Resources\tr\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\tr\turkish-ordinal-numbers.txt</Link>
+    </None>
+  </ItemGroup>
+</Project>
